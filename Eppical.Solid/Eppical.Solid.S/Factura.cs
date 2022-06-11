@@ -18,7 +18,7 @@ namespace Eppical.Solid.S
         public Cliente Cliente { get; private set; }
         public DateTime Fecha { get; set; }
         
-        public List<Item> Items { get; set; }
+        public List<IItem> Items { get; set; }
 
         public double Total() {
             double total = 0;
