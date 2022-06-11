@@ -8,14 +8,20 @@ namespace Eppical.Solid.S.Test
 {
     public class ItemTest
     {
-        [Fact]
-        public void SubtotalItem()
-        {
-            var producto = new Producto("descrip producto", 100);
+        #region Good
+        //[Fact]
+        //public void SubtotalItem()
+        //{
+        //    // Arrange (Preparar)
+        //    var producto = new Producto("descrip producto", 100);
+        //    var item = new Item(producto, 3);
 
-            var item = new Item(producto, 3);
+        //    // Act (Actuar)
+        //    var subTotalEsperado = item.Subtotal();
 
-            Assert.Equal(300, item.Subtotal());
-        }
+        //    // Assert (Afirmar)
+        //    Assert.Equal(300, subTotalEsperado);
+        //}
+        #endregion
     }
 }

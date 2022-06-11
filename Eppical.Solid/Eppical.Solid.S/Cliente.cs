@@ -8,6 +8,7 @@ namespace Eppical.Solid.S
 {
     public class Cliente
     {
+        #region Good
         public Cliente(string nombre, string apellido)
         {
             Nombre = nombre;
@@ -16,5 +17,8 @@ namespace Eppical.Solid.S
 
         public string Nombre { get; set; }
         public string Apellido { get; set; }
+        #endregion
+
+
     }
 }
