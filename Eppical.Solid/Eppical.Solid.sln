@@ -15,6 +15,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eppical.Solid.I", "Eppical.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eppical.Solid.I.Test", "Eppical.Solid.I.Test\Eppical.Solid.I.Test.csproj", "{3B1D2889-9FFF-455A-9596-5292CEFFA03D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eppical.Solid.D", "Eppical.Solid.D\Eppical.Solid.D.csproj", "{6AF6D261-06E7-42DD-9781-1657F2F09EFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eppical.Solid.D.Test", "Eppical.Solid.D.Test\Eppical.Solid.D.Test.csproj", "{9AB8683C-0702-4305-A4D2-C3B4B5042CD5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{3B1D2889-9FFF-455A-9596-5292CEFFA03D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B1D2889-9FFF-455A-9596-5292CEFFA03D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B1D2889-9FFF-455A-9596-5292CEFFA03D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AF6D261-06E7-42DD-9781-1657F2F09EFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AF6D261-06E7-42DD-9781-1657F2F09EFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AF6D261-06E7-42DD-9781-1657F2F09EFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AF6D261-06E7-42DD-9781-1657F2F09EFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AB8683C-0702-4305-A4D2-C3B4B5042CD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AB8683C-0702-4305-A4D2-C3B4B5042CD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AB8683C-0702-4305-A4D2-C3B4B5042CD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AB8683C-0702-4305-A4D2-C3B4B5042CD5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
