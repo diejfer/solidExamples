@@ -1,5 +1,6 @@
 namespace Eppical.Solid.D.Test
 {
+
     public class TestImpresora
     {
         [Fact]
@@ -47,7 +48,7 @@ namespace Eppical.Solid.D.Test
             string respEsperada = "Factura de Luz Código 987654321 impresa correctamente";
             string respReal = impresora.Imprimir(facturaLuz);
 
-            Assert.Equal(respEsperada , respReal);
+            Assert.Equal(respEsperada, respReal);
 
         }
 
@@ -75,4 +76,6 @@ namespace Eppical.Solid.D.Test
             Assert.Equal(respEsperada, respReal);
         }
     }
+
+ 
 }

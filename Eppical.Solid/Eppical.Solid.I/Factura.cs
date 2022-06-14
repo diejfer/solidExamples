@@ -8,33 +8,12 @@ namespace Eppical.Solid.I
 {
     #region Good
 
-    public class Factura : Documento
-    {
-        public string CAI { get; set; }
-
-        public Factura(int numero, DateTime fecha) : base(numero, fecha)
-        {
-        }
-
-        public override string Imprimir()
-        {
-            return $"Factura {this.Numero} impresa correctamente";
-        }
-    }
-
-    #endregion
-
-    #region Bad
     //public class Factura : Documento
     //{
     //    public string CAI { get; set; }
+
     //    public Factura(int numero, DateTime fecha) : base(numero, fecha)
     //    {
-    //    }
-
-    //    public override string EnviarPorEmail()
-    //    {
-    //        throw new InvalidOperationException("Operación no válida para Facturas");
     //    }
 
     //    public override string Imprimir()
@@ -42,6 +21,28 @@ namespace Eppical.Solid.I
     //        return $"Factura {this.Numero} impresa correctamente";
     //    }
     //}
+
+    #endregion
+
+    #region Bad
+
+    public class Factura : Documento
+    {
+        public string CAI { get; set; }
+        public Factura(int numero, DateTime fecha) : base(numero, fecha)
+        {
+        }
+
+        public override string EnviarPorEmail()
+        {
+            throw new InvalidOperationException("Operación no válida para Facturas");
+        }
+
+        public override string Imprimir()
+        {
+            return $"Factura {this.Numero} impresa correctamente";
+        }
+    }
 
     #endregion
 }

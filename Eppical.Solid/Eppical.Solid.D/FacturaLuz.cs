@@ -6,6 +6,26 @@ using System.Threading.Tasks;
 
 namespace Eppical.Solid.D
 {
+    #region Good
+
+    //public class FacturaLuz : Impuesto
+    //{
+    //    public string CodigoPago { get; set; }
+    //    public FacturaLuz(double importe, string codigoPago) : base(importe)
+    //    {
+    //        this.CodigoPago = codigoPago;
+    //    }
+
+    //    public override string Imprimir()
+    //    {
+    //        return $"Factura de Luz Código {this.CodigoPago} impresa correctamente";
+    //    }
+    //}
+
+    #endregion
+
+    #region Bad
+
     public class FacturaLuz : Impuesto
     {
         public string CodigoPago { get; set; }
@@ -14,9 +34,7 @@ namespace Eppical.Solid.D
             this.CodigoPago = codigoPago;
         }
 
-        public override string Imprimir()
-        {
-            return $"Factura de Luz Código {this.CodigoPago} impresa correctamente";
-        }
     }
+
+    #endregion
 }

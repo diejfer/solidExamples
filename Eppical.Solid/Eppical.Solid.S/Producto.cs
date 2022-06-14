@@ -8,13 +8,14 @@ namespace Eppical.Solid.S
 {
     public class Producto
     {
+        public string Descrip { get; set; }
+        public double Precio { get; set; }
+
         public Producto(string descrip, double precio)
         {
             Descrip = descrip;
             Precio = precio;
         }
 
-        public string Descrip { get; set; }
-        public double Precio { get; set; }
     }
 }

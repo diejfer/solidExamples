@@ -6,8 +6,13 @@ using System.Threading.Tasks;
 
 namespace Eppical.Solid.I
 {
-    public interface IEmaileable
-    {
-        public string EnviarPorEmail();
-    }
+    #region Good
+
+    //public interface IEmaileable
+    //{
+    //    public string EnviarPorEmail();
+    //}
+
+    #endregion
+
 }

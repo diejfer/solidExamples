@@ -6,8 +6,13 @@ using System.Threading.Tasks;
 
 namespace Eppical.Solid.I
 {
-    public interface IImprimible
-    {
-        public string Imprimir();
-    }
+    #region Good
+
+    //public interface IImprimible
+    //{
+    //    public string Imprimir();
+    //}
+
+    #endregion
+
 }

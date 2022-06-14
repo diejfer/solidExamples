@@ -6,7 +6,25 @@ using System.Threading.Tasks;
 
 namespace Eppical.Solid.D
 {
-    public abstract class Impuesto : IImprimible
+    #region Good
+
+    //public abstract class Impuesto : IImprimible
+    //{
+    //    public double Importe { get; set; }
+    //    public Impuesto(double importe)
+    //    {
+    //        this.Importe = importe;
+    //    }
+
+    //    public abstract string Imprimir();
+
+    //}
+
+    #endregion
+
+    #region Bad
+
+    public abstract class Impuesto
     {
         public double Importe { get; set; }
         public Impuesto(double importe)
@@ -14,7 +32,7 @@ namespace Eppical.Solid.D
             this.Importe = importe;
         }
 
-        public abstract string Imprimir();
-
     }
+
+    #endregion
 }

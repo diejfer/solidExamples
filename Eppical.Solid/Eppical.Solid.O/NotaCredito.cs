@@ -6,15 +6,19 @@ using System.Threading.Tasks;
 
 namespace Eppical.Solid.O
 {
-    public class NotaCredito : DocumentoContable
-    {
-        public NotaCredito(int numero) : base(numero)
-        {
-        }
+    #region Good
+    //public class NotaCredito : DocumentoContable
+    //{
+    //    public NotaCredito(int numero) : base(numero)
+    //    {
+    //    }
 
-        public override string Descripcion()
-        {
-            return $"NC-{this.Numero}";
-        }
-    }
+    //    public override string Descripcion()
+    //    {
+    //        return $"NC-{this.Numero}";
+    //    }
+    //}
+
+    #endregion
+
 }
