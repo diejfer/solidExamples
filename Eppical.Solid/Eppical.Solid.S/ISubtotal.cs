@@ -1,6 +1,6 @@
 ﻿namespace Eppical.Solid.S
 {
-    public interface IItem
+    public interface ISubtotal
     {
         double Subtotal();
     }

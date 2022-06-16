@@ -19,6 +19,5 @@ namespace Eppical.Solid.S
         //public string Apellido { get; set; }
         #endregion
 
-
     }
 }

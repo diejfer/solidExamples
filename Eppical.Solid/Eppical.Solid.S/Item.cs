@@ -2,7 +2,7 @@
 {
 
     #region Good
-    //public class Item : IItem
+    //public class Item : ISubtotal
     //{
     //    public Producto Producto { get; set; }
     //    public int Cantidad { get; set; }
@@ -11,7 +11,7 @@
     //    {
     //        Producto = producto;
     //        Cantidad = cantidad;
-    //    }      
+    //    }
 
     //    public double Subtotal()
     //    {

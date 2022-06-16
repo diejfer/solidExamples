@@ -19,7 +19,7 @@ namespace Eppical.Solid.S.Test
         //    var prod2 = new Producto("Leche UAT", 85);
         //    var prod3 = new Producto("Queso", 450);
 
-        //    factura.Items = new List<IItem>();
+        //    factura.Items = new List<ISubtotal>();
         //    factura.Items.Add(new Item(prod1, 3));
         //    factura.Items.Add(new Item(prod2, 6));
         //    factura.Items.Add(new Item(prod3, 1));
@@ -41,16 +41,16 @@ namespace Eppical.Solid.S.Test
         //    var cliente = new Cliente("Diego", "Fernandez");
         //    var factura = new Factura(1, cliente);
 
-        //    var mockItem1 = new Mock<IItem>();
+        //    var mockItem1 = new Mock<ISubtotal>();
         //    mockItem1.Setup(x => x.Subtotal()).Returns(100);
 
-        //    var mockItem2 = new Mock<IItem>();
+        //    var mockItem2 = new Mock<ISubtotal>();
         //    mockItem2.Setup(x => x.Subtotal()).Returns(150);
 
-        //    var mockItem3 = new Mock<IItem>();
+        //    var mockItem3 = new Mock<ISubtotal>();
         //    mockItem3.Setup(x => x.Subtotal()).Returns(175);
 
-        //    factura.Items = new List<IItem>();
+        //    factura.Items = new List<ISubtotal>();
         //    factura.Items.Add(mockItem1.Object);
         //    factura.Items.Add(mockItem2.Object);
         //    factura.Items.Add(mockItem3.Object);

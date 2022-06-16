@@ -20,7 +20,7 @@ namespace Eppical.Solid.S
         //    this.Fecha = DateTime.UtcNow;
         //}
 
-        //public List<IItem> Items { get; set; }
+        //public List<ISubtotal> Items { get; set; }
 
         //public double Total()
         //{
